@@ -1,0 +1,172 @@
+body.dark, body.dark .deck-container {
+  background:#002b36;
+  color:#839496;
+}
+h1 {
+  color:#b58900;
+}
+body.dark h2 {
+  color:#93a1a1;
+  border-bottom-color:#073642;
+}
+body.dark h3 {
+  color:#93a1a1;
+}
+body.dark pre {
+  border-color:#839496;
+}
+body.dark code {
+  color:#93a1a1;
+}
+
+body.dark blockquote {
+  background:#073642;
+  color:#93a1a1;
+  border-left:5px solid #b58900;
+}
+body.dark blockquote cite {
+  color:#586e75;
+}
+body.dark blockquote:before {
+  color:#586e75;
+}
+blockquote {
+  margin:1.5em .5em;
+  padding:.5em .5em;
+  quotes:"\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  content:open-quote;
+  font-size:4em;
+  line-height:0.1em;
+  vertical-align:-0.4em;
+}
+blockquote p {
+  display: inline;
+}
+
+body.dark ::-moz-selection {
+  background:#fdf6e3;
+  color:#657b83;
+}
+body.dark ::selection {
+  background:#fdf6e3;
+  color:#657b83;
+}
+
+a, a:hover, a:focus, a:active, a:visited {
+  color:#268bd2;
+}
+
+body.dark .deck-prev-link, body.dark .deck-next-link,
+body.dark .deck-prev-link:visited, body.dark .deck-next-link:visited {
+  background:#073642;
+  color:#93a1a1;
+}
+body.dark .deck-prev-link:hover, body.dark .deck-prev-link:focus,
+body.dark .deck-prev-link:active, body.dark .deck-next-link:hover,
+body.dark .deck-next-link:focus, body.dark .deck-next-link:active {
+  background:#b58900;
+  color:#002b36;
+}
+
+body.dark .deck-menu .slide {
+  background:#93a1a1;
+}
+body.dark .deck-menu .deck-current,
+body.dark .no-touch .deck-menu .slide:hover {
+  background:#eee8d5;
+}
+
+.slide .deck-before, .slide .deck-previous {
+  opacity: 0.6;
+}
+
+dt {
+  font-weight:bold;
+  text-decoration:underline;
+}
+dd {
+  margin-left:1em;
+  padding-bottom:.25em;
+}
+
+pre.sig {
+  padding:.5em;
+  font-size:2vw;
+}
+
+cite {
+  font-size:smaller;
+}
+
+em {
+  color:#cb4b16;
+  font-style:italic;
+}
+strong {
+  color:#cb4b16;
+}
+.csstransitions.csstransforms .deck-container > .slide {
+  -webkit-transition: -webkit-transform 0ms ease-in-out !important;
+  transition: transform 0ms ease-in-out !important;
+}
+.csstransitions.csstransforms .deck-container:not(.deck-menu) > .slide .slide {
+  -webkit-transition: -webkit-transform 0ms ease-in-out, opacity 0ms ease-in-out !important;
+  transition: transform 0ms ease-in-out, opacity 0ms ease-in-out !important;
+}
+
+body.light, body.light .deck-container {
+  background:#fdf6e3;
+  color:#657b83;
+}
+body.light h2 {
+  color:#586e75;
+  border-bottom-color:#eee8d5;
+}
+body.light h3 {
+  color:#93a1a1;
+}
+body.light pre {
+  border-color:#657b83;
+}
+body.light code {
+  color:#93a1a1;
+}
+body.light blockquote {
+  background:#eee8d5;
+  color:#93a1a1;
+  border-left:5px solid #b58900;
+}
+body.light blockquote cite {
+  color:#657b83;
+}
+body.light blockquote:before {
+  color:#657b83;
+}
+body.light ::-moz-selection {
+  background:#fdf6e3;
+  color:#657b83;
+}
+body.light ::selection {
+  background:#fdf6e3;
+  color:#657b83;
+}
+body.light .deck-prev-link, body.light .deck-next-link,
+body.light .deck-prev-link:visited, body.light .deck-next-link:visited {
+  background:#eee8d5;
+  color:#93a1a1;
+}
+body.light .deck-prev-link:hover, body.light .deck-prev-link:focus,
+body.light .deck-prev-link:active, body.light .deck-next-link:hover,
+body.light .deck-next-link:focus, body.light .deck-next-link:active {
+  background:#b58900;
+  color:#fdf6e3;
+}
+body.light .deck-menu .slide {
+  background:#93a1a1;
+}
+body.light .deck-menu .deck-current,
+body.light .no-touch .deck-menu .slide:hover {
+  background:#eee8d5;
+}
